@@ -1,0 +1,7 @@
+**/.vs
+**/bin
+**/obj
+EkudosAPI/Properties/PublishProfiles
+EkudosAPI/appsettings.Development.json
+EkudosAPI/appsettings.Staging.json
+EkudosAPI/EkudosAPI.csproj.user

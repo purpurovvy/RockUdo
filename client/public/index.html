@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>ekudos-app</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+  </head>
+  <body style="height: 100%;">
+    <noscript>
+      <strong>We're sorry but ekudos-app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app" style="height: 100%;">
+      <div id="ie-content" style="width: 100%;height: 100%; text-align: center; vertical-align: middle;">
+        <div id="floater" style="float: left;height: 50%;width: 100%;margin-bottom: -50px;"></div>
+        <div id="info" style="clear: both;height: 100px; font-size: 50px;display: none;">
+          Please, don't make it tough your life :) <br/>
+          We invite you to Chrome or Firefox!
+        </div>
+      </div>
+    </div>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript">
+      setTimeout(function(){ 
+        var info = document.getElementById('info');
+        if(info){
+          document.getElementById('info').style.display = 'block';
+        }
+      }, 5000);
+    </script>
+  </body>
+</html>

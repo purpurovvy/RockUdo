@@ -1,0 +1,42 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:19242",
+      "sslPort": 44315
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/health",
+      "environmentVariables": {
+        "KEY_VAULT_IDENTIFIER": "ekudos",
+        "KVA_CLIENT_SECRET": "5f3_PZNcoReeJQ~C0dK7X~J7Xsw.U26e-v",
+        "KVA_CLIENT_ID": "60950139-4bc9-43df-9dc7-fbd5f3dd4de0",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "EkudosAPI-dev": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/health",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000"
+    },
+    "EkudosAPI-staging": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/health",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Staging"
+      },
+      "applicationUrl": "http://localhost:5000"
+    }
+  }
+}

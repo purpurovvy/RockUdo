@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ekudosapi:
+    image: ${DOCKER_REGISTRY}ekudosapi
+    build:
+      context: .
+      dockerfile: Dockerfile
